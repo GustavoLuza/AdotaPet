@@ -43,6 +43,7 @@
     <Compile Include="Entities\Cliente.cs" />
     <Compile Include="Entities\Doenca.cs" />
     <Compile Include="Entities\Endereco.cs" />
+    <Compile Include="Entities\Mantimentos.cs" />
     <Compile Include="Entities\Ong.cs" />
     <Compile Include="Entities\PainelAdministrativo.cs" />
     <Compile Include="Entities\Raca.cs" />
@@ -88,6 +89,8 @@
     <Compile Include="Validation\Documentos\EmailValidation.cs" />
     <Compile Include="Validation\Doencas\DoencaAptaParaCadastroValidation.cs" />
     <Compile Include="Validation\Doencas\DoencaEstaConsistenteValidation.cs" />
+    <Compile Include="Validation\Mantimento\MantimentoAptoParaCadastroValidation.cs" />
+    <Compile Include="Validation\Mantimento\MantimentoEstaConsistenteValidation.cs" />
     <Compile Include="Validation\Ongs\OngAptaParaCadastroValidation.cs" />
     <Compile Include="Validation\Ongs\OngEstaConsistenteValidation.cs" />
     <Compile Include="Validation\Racas\RacaAptaParaCadastroValidation.cs" />

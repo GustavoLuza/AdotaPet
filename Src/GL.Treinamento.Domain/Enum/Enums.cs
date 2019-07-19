@@ -58,6 +58,64 @@ namespace GL.Treinamento.Domain.Enum
             [Display(Name = "Outros")]
             Outros = 3,
         }
+
+        public enum Mantimentos
+        {
+            [Display(Name = "Ração cão")]
+            RacaoCao = 0,
+            [Display(Name = "Ração gato")]
+            RacaoGato = 1,
+            [Display(Name = "Ração cavalo")]
+            RacaoCavalo = 2,
+            [Display(Name = "Tapete higiênico")]
+            TapeteHigienico = 3,
+            [Display(Name = "Areia sanitária")]
+            AreiaSanitaria = 4,
+            [Display(Name = "Medicamento")]
+            Medicamento = 5,
+            [Display(Name = "Outros")]
+            Outros = 6,
+        }
+
+        public enum Quantidade
+        {
+            [Display(Name = "1 KG")]
+            UmKG = 0,
+            [Display(Name = "3 KG")]
+            TresKG = 1,
+            [Display(Name = "5 KG")]
+            CincoKG = 2,
+            [Display(Name = "10 KG")]
+            DezKG = 3,
+            [Display(Name = "15 KG")]
+            QuinzeKG = 4,
+            [Display(Name = "20 KG")]
+            VinteKG = 5,
+            [Display(Name = "25 KG")]
+            VinteCincoKG = 6,
+            [Display(Name = "1 UN")]
+            UmUN = 7,
+            [Display(Name = "2 UN")]
+            DoisUN = 8,
+            [Display(Name = "3 UN")]
+            TresUN = 9,
+            [Display(Name = "4 UN")]
+            QuatroUN = 10,
+            [Display(Name = "5 UN")]
+            CincoUN = 11,
+            [Display(Name = "Outros")]
+            Outros = 10,
+        }
+
+        public enum TipoMantimento
+        {
+            [Display(Name = "Alimentício")]
+            Alimento = 0,
+            [Display(Name = "Higiene")]
+            Higiene = 1,
+            [Display(Name = "Medicamento")]
+            Medicamento = 2
+        }
     }
     
 }
