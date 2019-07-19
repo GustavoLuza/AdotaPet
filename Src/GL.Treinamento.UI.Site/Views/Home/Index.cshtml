@@ -1,0 +1,135 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@Styles.Render("~/Content/bootstrap")
+@Scripts.Render("~/bundles/bootstrap")
+<link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+<link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+<script src="node_modules/jQuery/dist/jQuery.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+    
+<head>
+    <style>
+        .carousel-inner > .item > img {
+            width: 100%;
+        height: 300px;
+        }
+    </style>
+</head>
+
+<div id="mycarousel" class="carousel slide" data-ride="carousel" style="margin-top:45px">
+
+    <ol class="carousel-indicators">
+    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#mycarousel" data-slide-to="1"></li>
+    <li data-target="#mycarousel" data-slide-to="2"></li>
+    <li data-target="#mycarousel" data-slide-to="3"></li>
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+
+        <div class="item active">
+            <img src="~/Content/Imagem/img1.jpg">
+        </div>
+
+        <div class="item ">
+            <img src="~/Content/Imagem/img2.jpg">
+            <div class="carousel-caption">
+                <p>Camaleão</p>
+            </div>
+        </div>
+
+        <div class="item ">
+            <img src="~/Content/Imagem/img3.jpg">
+        </div>
+
+        <div class="item ">
+            <img src="~/Content/Imagem/img4.jpg">
+        </div>
+
+    </div>
+
+    <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+    </a>
+
+    <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+    </a>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 text-center my-5">
+            <h1 class="display-3"><i class="fas fa-angle-double-right text-danger"></i>Seja bem-vindo</h1>
+            <p>Teste 123</p>
+        </div>
+    </div>
+</div>
+
+<div class="jumbotron jumbotron-fluid" style="margin-top:40px">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="display-4"><i class="far fa-map text-danger"></i>Os Extremos do Bem e do Mal</h1>
+                <p class="lead"> com mais de 200 palavras em Latim combinado com um punhado de modelos de estrutura de frases para gerar um Lorem Ipsum com aparência razoável, livre de repetições, inserções de humor, palavras não características, etc.</p>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <ul class="nav nav-pills justify-content-center mb-4" id="pilss-nav" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-pills01" data-toggle="pill" href="#nav-item01">VÍDEO</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-pills02" data-toggle="pill" href="#nav-item02">ENDEREÇO</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-pills03" data-toggle="pill" href="#nav-item03">INFORMAÇÕES GERAIS</a>
+                    </li>
+
+                </ul>
+                <div class="tab-content" id="nav-pills-content">
+                    <div class="tab-pane fade show" id="nav-item01" role="tabpanel">
+                        <div class="row">
+                            <div class="col-sm-6 active" style="margin-top:45px">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <!-- PODE SER TAMBÉM 21BY9  4BY3 1BY1 16by9 -->
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YO313uXOgTM"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-6" style="margin-top:45px">
+                                <p>VÍDEO ORACLE</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="nav-item02" role="tabpanel">
+                        <div class="row">
+                            <div class="col-sm-6" style="margin-top:-300px">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <!-- PODE SER TAMBÉM 21BY9  4BY3 1BY1 -->
+                                    <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.839046832783!2d-49.329878685201464!3d-28.604604982428818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952177a05c8adfe9%3A0x13dedb08cdb19809!2sSeven+Keys+Seguran%C3%A7a+e+Infraestrutura!5e0!3m2!1spt-BR!2sbr!4v1534376153655"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" style="margin-top:-820px" id="nav-item03" role="tabpanel">
+                        <embed src="http://www.stf.jus.br/arquivo/cms/intranetSdoPautaPlenario/anexo/Pesquisa7Direitosdosanimais.pdf" width="760" height="500" type='application/pdf'>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                           

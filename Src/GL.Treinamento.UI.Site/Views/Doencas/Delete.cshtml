@@ -1,0 +1,31 @@
+﻿@model N.Treinamento.Application.ViewModels.DoencaViewModel
+
+@{
+    ViewBag.Title = "Excluir doença";
+}
+
+<h2>Excluir doença</h2>
+
+<div>
+
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeDoenca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomeDoenca)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+    <div class="form-actions no-color">
+        <input type="submit" value="Excluir" class="btn btn-danger" />
+        @Html.ActionLink("Listagem", "Index", "Index", new { @class = "btn btn-primary" })
+    </div>
+    }
+</div>

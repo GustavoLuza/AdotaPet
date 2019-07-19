@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Meu Aplicativo ASP.NET</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @using GL.Treinamento.UI.Site.Helpers;
+
+    
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("AdotaPet", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <!--AQUI ESCONDE ITENS DO MENU COM BASE NAS PERMISSÕES-->
+                    @{
+                        if (this.IfClaim("PermissoesCliente", "CE"))
+                        {
+                            <li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    Cadastros <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>@Html.ActionLink("Pessoas", "Create", "Clientes")</li>
+                                    <li>@Html.ActionLink("ONGs", "Create", "Ongs")</li>
+                                    <li class="nav-divider"></li>
+                                    <li>@Html.ActionLink("Animais", "Create", "Animais")</li>
+                                    <li>@Html.ActionLink("Doenças", "Create", "Doencas")</li>
+                                    <li>@Html.ActionLink("Raças", "Create", "Racas")</li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    Listagens <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>@Html.ActionLink("Pessoas", "Index", "Clientes")</li>
+                                    <li>@Html.ActionLink("ONGs", "Index", "Ongs")</li>
+                                    <li class="nav-divider"></li>
+                                    <li>@Html.ActionLink("Animais", "Index", "Animais")</li>
+                                    <li>@Html.ActionLink("Doenças", "Index", "Doencas")</li>
+                                    <li>@Html.ActionLink("Raças", "Index", "Racas")</li>
+                                </ul>
+                            </li>
+                        } }
+                            <li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    Legislação <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="http://www.planalto.gov.br/ccivil_03/leis/l9605.htm">Lei de proteção aos animais</a></li>
+                                </ul>
+                            </li> http://www.famcri.sc.gov.br/servicos/denuncias
+
+                            <li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    Realizar denúncia <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="http://www.famcri.sc.gov.br/servicos/denuncias">Informações gerais</a></li>
+                                    <li><a href="mailto:ambiente@criciuma.sc.gov.br?subject="Denúncia de maus-tratos contra animal">E-mail FAMCRI</a></li>
+                                </ul>
+                            </li> 
+                </ul>                                                 
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Meu Aplicativo ASP.NET</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

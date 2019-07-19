@@ -1,0 +1,25 @@
+﻿@model N.Treinamento.Application.ViewModels.RacaViewModel
+
+@{
+    ViewBag.Title = "Detalhes da raça";
+}
+
+<h2>Detalhes da raça</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeRaca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomeRaca)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.RacaId }, new { @class = "btn btn-warning" })
+    @Html.ActionLink("Listagem", "Index", "Index", new { @class = "btn btn-primary" })
+</p>

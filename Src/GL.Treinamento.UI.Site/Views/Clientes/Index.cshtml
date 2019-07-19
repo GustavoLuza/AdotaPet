@@ -1,0 +1,55 @@
+﻿@model IEnumerable<N.Treinamento.Application.ViewModels.ClienteViewModel>
+@using GL.Treinamento.UI.Site.Helpers;
+
+@{
+    ViewBag.Title = "Listagem de pessoasa";
+}
+
+<h2>Listagem de pessoas</h2>
+
+<p>
+    @Html.ActionLink("Cadastrar cliente", "Create", "Create", new { @class = "btn btn-primary" }).IfClaimHelper("PermissoesCliente", "CI")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CPF)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataNascimento)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CPF)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DataNascimento)
+            @if (item.DataNascimento !=null)
+            {
+                item.DataNascimento.ToShortDateString();
+            }
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id = item.ClienteId }, new { @class = "btn btn-warning" }).IfClaimHelper("PermissoesCliente", "CE")
+            @Html.ActionLink("Excluir", "Delete", new { id = item.ClienteId }, new { @class = "btn btn-danger" }).IfClaimHelper("PermissoesCliente", "CX")
+            @Html.ActionLink("Detalhes", "Details", new { id = item.ClienteId }, new { @class = "btn btn-info" }).IfClaimHelper("PermissoesCliente", "CD")
+        </td>
+    </tr>
+}
+</table>

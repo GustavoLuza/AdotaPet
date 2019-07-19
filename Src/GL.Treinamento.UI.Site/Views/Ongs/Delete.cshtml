@@ -1,0 +1,62 @@
+﻿@model N.Treinamento.Application.ViewModels.OngViewModel
+
+@{
+    ViewBag.Title = "Excluir ONG";
+}
+
+<h2>Excluir ONG</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeFantasia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomeFantasia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CNPJ)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CNPJ)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Telefone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Celular)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Celular)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+    <div class="form-actions no-color">
+        <input type="submit" value="Excluir" class="btn btn-danger" />
+        @Html.ActionLink("Listagem", "Index", "Index", new { @class = "btn btn-primary" })
+    </div>
+    }
+</div>

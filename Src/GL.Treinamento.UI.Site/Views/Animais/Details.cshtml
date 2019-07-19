@@ -1,0 +1,74 @@
+﻿@model N.Treinamento.Application.ViewModels.AnimalViewModel
+
+@{
+    ViewBag.Title = "Detalhes do animal";
+}
+
+<h2>Detalhes do animal</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeAnimal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomeAnimal)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Especie)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Especie)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CorPelagem)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CorPelagem)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Castrado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Castrado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Vacinado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vacinado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Vermifugado)
+        </dt>
+
+        <dd>
+            <br />
+            @Html.DisplayFor(model => model.Vermifugado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Porte)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Porte)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.AnimalId }, new { @class = "btn btn-warning" })
+    @Html.ActionLink("Listagem", "Index", "Index", new { @class = "btn btn-primary" })
+</p>

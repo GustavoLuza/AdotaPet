@@ -1,0 +1,263 @@
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\GL.Treinamento.UI.Site.dll.config
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\GL.Treinamento.UI.Site.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\GL.Treinamento.UI.Site.pdb
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\csc.exe
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\csc.exe.config
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\csc.rsp
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\csi.exe
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\csi.exe.config
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\csi.rsp
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.AppContext.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Console.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.IO.Compression.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.IO.Pipes.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Security.Claims.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.ValueTuple.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Xml.XPath.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\vbc.exe
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\vbc.exe.config
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\vbc.rsp
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\VBCSCompiler.exe
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Antlr3.Runtime.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\EntityFramework.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\EntityFramework.SqlServer.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Newtonsoft.Json.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Owin.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.Helpers.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.Mvc.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.Optimization.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.Razor.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.WebPages.Deployment.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.WebPages.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.WebPages.Razor.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\WebGrease.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.Helpers.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.Mvc.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.Optimization.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.Razor.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.WebPages.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.WebPages.Deployment.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.WebPages.Razor.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Newtonsoft.Json.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Antlr3.Runtime.pdb
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\EntityFramework.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\EntityFramework.SqlServer.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\pt-br\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\pt-br\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\pt-br\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\obj\Debug\GL.Treinamento.UI.Site.csprojAssemblyReference.cache
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\obj\Debug\GL.Treinamento.UI.Site.csproj.CoreCompileInputs.cache
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\obj\Debug\GL.Treinamento.UI.Site.csproj.CopyComplete
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\obj\Debug\GL.Treinamento.UI.Site.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\obj\Debug\GL.Treinamento.UI.Site.pdb
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\GL.Treinamento.UI.Site.dll.config
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\GL.Treinamento.UI.Site.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\GL.Treinamento.UI.Site.pdb
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\csc.exe
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\csc.exe.config
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\csc.rsp
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\csi.exe
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\csi.exe.config
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\csi.rsp
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.AppContext.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Console.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.IO.Compression.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.IO.Pipes.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Security.Claims.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.ValueTuple.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Xml.XPath.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\vbc.exe
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\vbc.exe.config
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\vbc.rsp
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\VBCSCompiler.exe
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Antlr3.Runtime.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\EntityFramework.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\EntityFramework.SqlServer.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\N.Treinamento.Application.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Newtonsoft.Json.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Owin.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.Helpers.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.Mvc.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.Optimization.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.Razor.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.WebPages.Deployment.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.WebPages.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.WebPages.Razor.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\WebGrease.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\GL.Treinamento.Domain.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\AutoMapper.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\N.Treinamento.Application.pdb
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.Helpers.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.Mvc.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.Optimization.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.Razor.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.WebPages.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.WebPages.Deployment.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Web.WebPages.Razor.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Newtonsoft.Json.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Antlr3.Runtime.pdb
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\EntityFramework.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\EntityFramework.SqlServer.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\GL.Treinamento.Domain.pdb
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\AutoMapper.pdb
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\AutoMapper.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\pt-br\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\pt-br\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\pt-br\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\obj\Debug\GL.Treinamento.UI.Site.csprojAssemblyReference.cache
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\obj\Debug\GL.Treinamento.UI.Site.csproj.CoreCompileInputs.cache
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\obj\Debug\GL.Treinamento.UI.Site.csproj.CopyComplete
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\obj\Debug\GL.Treinamento.UI.Site.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\obj\Debug\GL.Treinamento.UI.Site.pdb
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\GL.Treinamento.Infra.CrossCutting.MvcFilters.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\GL.Treinamento.Infra.CrossCutting.MvcFilters.pdb
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\GL.Treinamento.Infra.CrossCutting.IOC.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\SimpleInjector.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\SimpleInjector.Integration.Web.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\SimpleInjector.Integration.Web.Mvc.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\WebActivator.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\GL.Treinamento.Infra.Data.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Dapper.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\GL.Treinamento.Infra.CrossCutting.IOC.pdb
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\SimpleInjector.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\SimpleInjector.Integration.Web.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\SimpleInjector.Integration.Web.Mvc.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\GL.Treinamento.Infra.Data.pdb
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\GL.Treinamento.Infra.Data.dll.config
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\Dapper.xml
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\GL.Treinamento.Infra.CrossCutting.IOC.dll.config
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.UI.Site\bin\DomainValidation.dll

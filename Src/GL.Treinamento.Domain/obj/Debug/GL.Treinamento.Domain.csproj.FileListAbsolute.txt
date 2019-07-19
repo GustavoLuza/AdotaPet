@@ -1,0 +1,13 @@
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.Domain\bin\Debug\GL.Treinamento.Domain.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.Domain\bin\Debug\GL.Treinamento.Domain.pdb
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.Domain\obj\Debug\GL.Treinamento.Domain.csproj.CoreCompileInputs.cache
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.Domain\obj\Debug\GL.Treinamento.Domain.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Treinamento\Treinamento\Src\GL.Treinamento.Domain\obj\Debug\GL.Treinamento.Domain.pdb
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.Domain\bin\Debug\GL.Treinamento.Domain.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.Domain\bin\Debug\GL.Treinamento.Domain.pdb
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.Domain\obj\Debug\GL.Treinamento.Domain.csprojAssemblyReference.cache
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.Domain\obj\Debug\GL.Treinamento.Domain.csproj.CoreCompileInputs.cache
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.Domain\obj\Debug\GL.Treinamento.Domain.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.Domain\obj\Debug\GL.Treinamento.Domain.pdb
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.Domain\bin\Debug\DomainValidation.dll
+C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.Domain\obj\Debug\GL.Treinamento.Domain.csproj.CopyComplete

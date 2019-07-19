@@ -1,0 +1,84 @@
+﻿@using N.Treinamento.Application.ViewModels;
+@model N.Treinamento.Application.ViewModels.
+
+
+
+@{
+    ViewBag.Title = "Cadastrar permissão de acesso para o usuário";
+}
+
+<h2>Cadastrar permissão de acesso para o usuário</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+   
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ClaimType, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(model => model.ClaimType, new[] { new SelectListItem { Text = "Permissões cliente", Value = "PermissoesCliente" }, new SelectListItem { Text = "Permissões admnistrador", Value = "PermissoesAdm" } },
+           new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ClaimValue, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(model => model.ClaimValue, new[] { new SelectListItem { Text = "Total", Value = "CL,CI,CX,CD,CE,ADM" }, new SelectListItem { Text = "Cadastro", Value = "CL,CI,CD" }, new SelectListItem { Text = "Nenhuma", Value = null } },
+           new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group col-md-6">
+        <label class="control-label col-md-2">Teste</label>
+        <div class="col-md-10">
+            <select class="custom-select form-control col-md-10" id="usuario_Id">
+                <option selected value="0">Selecione</option>
+            </select>
+        </div>
+    </div>
+
+
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Cadastrar" class="btn btn-success" />
+            @Html.ActionLink("Listagem", "Index", "Index", new { @class = "btn btn-primary" })
+        </div>
+    </div>
+</div>
+}
+
+<script>
+    window.onload = function () {
+
+        popularUsuario();
+
+    }
+    function popularUsuario() {
+        $.ajax({
+            type: "POST",
+            url: "\ObterUsuario",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (resposta) {
+                popularComboUsuario(resposta);
+            },
+            error: function () {
+                alert("Não foi possivel listas as doenças, por favor entrar em contato com o suporte técnico");
+            }
+        });
+    }
+    function popularComboUsuario(usuarios) {
+        var comboUsuario = $("#usuario_Id");
+        $.each(usuarios, function (indice, usu) { 
+            comboUsuario.append($("<option value=" + this.Id + ">").text((this.UserId )));           
+        });
+    }
+</script>

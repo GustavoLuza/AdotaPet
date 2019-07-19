@@ -1,0 +1,113 @@
+﻿@using N.Treinamento.Application.ViewModels;
+@model N.Treinamento.Application.ViewModels.AnimalViewModel
+
+@{
+    ViewBag.Title = "Cadastro de animais";
+}
+
+<h2>Cadastro de animais</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(model => model.NomeAnimal, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.NomeAnimal, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.NomeAnimal, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Especie, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EnumDropDownListFor(model => model.Especie, htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Especie, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Porte, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EnumDropDownListFor(model => model.Porte, htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Porte, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+     <div class="form-group">
+         @Html.LabelFor(model => model.CorPelagem, htmlAttributes: new { @class = "control-label col-md-2" })
+         <div class="col-md-10">
+             @Html.EnumDropDownListFor(model => model.CorPelagem, htmlAttributes: new { @class = "form-control" })
+             @Html.ValidationMessageFor(model => model.CorPelagem, "", new { @class = "text-danger" })
+         </div>
+     </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Sexo, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EnumDropDownListFor(model => model.Sexo, htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Sexo, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Castrado, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EnumDropDownListFor(model => model.Castrado, htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Castrado, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Vermifugado, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EnumDropDownListFor(model => model.Vermifugado, htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Vermifugado, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Vacinado, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EnumDropDownListFor(model => model.Vacinado, htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Vacinado, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-12">
+            @Html.LabelFor(model => model.DoencaId, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.DropDownListFor(model => model.DoencaId, ((IEnumerable<DoencaViewModel>)ViewBag.VBDoenca).Select(option => new SelectListItem
+            {
+                Text = option.NomeDoenca,
+                Value = option.DoencaId.ToString(),
+                Selected = (Model != null) && (Model.DoencaId == option.DoencaId)
+            }), "Selecione uma doença...", new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-12">
+            @Html.LabelFor(model => model.RacaId, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.DropDownListFor(model => model.RacaId, ((IEnumerable<RacaViewModel>)ViewBag.VBRaca).Select(option => new SelectListItem
+            {
+                Text = option.NomeRaca,
+                Value = option.RacaId.ToString(),
+                Selected = (Model != null) && (Model.RacaId == option.RacaId)
+            }), "Selecione uma raça...", new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Cadastrar" class="btn btn-success" />
+            @Html.ActionLink("Listagem", "Index", "Index", new { @class = "btn btn-primary" })
+        </div>
+    </div>
+</div>
+}
+

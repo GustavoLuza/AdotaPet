@@ -1,0 +1,25 @@
+﻿@model N.Treinamento.Application.ViewModels.DoencaViewModel
+
+@{
+    ViewBag.Title = "Detailhes da doença";
+}
+
+<h2>Detailhes da doença</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeDoenca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomeDoenca)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.DoencaId }, new { @class = "btn btn-warning" })
+    @Html.ActionLink("Listagem", "Index", "Index", new { @class = "btn btn-primary" })
+</p>

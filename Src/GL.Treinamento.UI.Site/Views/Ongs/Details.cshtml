@@ -1,0 +1,57 @@
+﻿@model N.Treinamento.Application.ViewModels.OngViewModel
+
+@{
+    ViewBag.Title = "Detalhes da ONG";
+}
+
+<h2>Detalhes da ONG</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeFantasia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomeFantasia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CNPJ)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CNPJ)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Telefone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Celular)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Celular)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.OngId }, new { @class = "btn btn-warning" })
+    @Html.ActionLink("Listagem", "Index", "Index", new { @class = "btn btn-primary" })
+</p>

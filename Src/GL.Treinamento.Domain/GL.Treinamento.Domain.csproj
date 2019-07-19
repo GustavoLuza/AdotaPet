@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D750619F-BD64-44A0-83C6-882732071433}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GL.Treinamento.Domain</RootNamespace>
+    <AssemblyName>GL.Treinamento.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DomainValidation, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\DomainValidation.1.0.0\lib\net453\DomainValidation.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\Animal.cs" />
+    <Compile Include="Entities\AspNetUsers.cs" />
+    <Compile Include="Entities\Cliente.cs" />
+    <Compile Include="Entities\Doenca.cs" />
+    <Compile Include="Entities\Endereco.cs" />
+    <Compile Include="Entities\Ong.cs" />
+    <Compile Include="Entities\PainelAdministrativo.cs" />
+    <Compile Include="Entities\Raca.cs" />
+    <Compile Include="Enum\Enums.cs" />
+    <Compile Include="Interfaces\Repository\IAnimalRepository.cs" />
+    <Compile Include="Interfaces\Repository\IAspNetUsersRepository.cs" />
+    <Compile Include="Interfaces\Repository\IClienteRepository.cs" />
+    <Compile Include="Interfaces\Repository\IDoencaRepository.cs" />
+    <Compile Include="Interfaces\Repository\IOngRepository.cs" />
+    <Compile Include="Interfaces\Repository\IPainelAdministrativoRepository.cs" />
+    <Compile Include="Interfaces\Repository\IRacaRepository.cs" />
+    <Compile Include="Interfaces\Repository\IRepository.cs" />
+    <Compile Include="Interfaces\Services\IAnimalService.cs" />
+    <Compile Include="Interfaces\Services\IAspNetUsersService.cs" />
+    <Compile Include="Interfaces\Services\IClienteService.cs" />
+    <Compile Include="Interfaces\Services\IDoencaService.cs" />
+    <Compile Include="Interfaces\Services\IOngService.cs" />
+    <Compile Include="Interfaces\Services\IPainelAdministrativoService.cs" />
+    <Compile Include="Interfaces\Services\IRacaService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AnimalService.cs" />
+    <Compile Include="Services\AspNetUsersService.cs" />
+    <Compile Include="Services\ClienteService.cs" />
+    <Compile Include="Services\DoencaService.cs" />
+    <Compile Include="Services\OngService.cs" />
+    <Compile Include="Services\PainelAdministrativoService.cs" />
+    <Compile Include="Services\RacaService.cs" />
+    <Compile Include="Specifications\Clientes\ClienteDevePossuirCPFUnicoSpecification.cs" />
+    <Compile Include="Specifications\Clientes\ClienteDevePossuirEmailUnicoSpecification.cs" />
+    <Compile Include="Specifications\Clientes\ClienteDeveSerMaiorDeIdadeSpecification.cs" />
+    <Compile Include="Specifications\Clientes\ClienteDeveTerCpfValidoSpecification.cs" />
+    <Compile Include="Specifications\Clientes\ClienteDeveTerEmailValidoSpecification.cs" />
+    <Compile Include="Specifications\Doencas\DoencaDeveSerUnicaSpecification.cs" />
+    <Compile Include="Specifications\Ongs\OngDevePossuirCNPJUnicoSpecification.cs" />
+    <Compile Include="Specifications\Ongs\OngDevePossuirEmaulUnicoSpecification.cs" />
+    <Compile Include="Specifications\Ongs\OngDeveTerEmailValidoSpecification.cs" />
+    <Compile Include="Specifications\Racas\RacaDeveSerUnicaSpecification.cs" />
+    <Compile Include="Validation\Animais\AnimalAptoParaCadastroValidation.cs" />
+    <Compile Include="Validation\Animais\AnimalEstaConsistenteValidation.cs" />
+    <Compile Include="Validation\Clientes\ClienteAptoParaCadastroValidation.cs" />
+    <Compile Include="Validation\Clientes\ClienteEstaConsistenteValidation.cs" />
+    <Compile Include="Validation\Documentos\CPFValidation.cs" />
+    <Compile Include="Validation\Documentos\EmailValidation.cs" />
+    <Compile Include="Validation\Doencas\DoencaAptaParaCadastroValidation.cs" />
+    <Compile Include="Validation\Doencas\DoencaEstaConsistenteValidation.cs" />
+    <Compile Include="Validation\Ongs\OngAptaParaCadastroValidation.cs" />
+    <Compile Include="Validation\Ongs\OngEstaConsistenteValidation.cs" />
+    <Compile Include="Validation\Racas\RacaAptaParaCadastroValidation.cs" />
+    <Compile Include="Validation\Racas\RacaEstaConsistenteValidation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Specifications\Animais\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

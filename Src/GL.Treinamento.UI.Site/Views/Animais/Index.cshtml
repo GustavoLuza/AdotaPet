@@ -1,0 +1,53 @@
+﻿@model IEnumerable<N.Treinamento.Application.ViewModels.AnimalViewModel>
+@using GL.Treinamento.UI.Site.Helpers;
+
+@{
+    ViewBag.Title = "Listagem de animais";
+}
+
+<h2>Listagem de animais</h2>
+
+<p>
+    @Html.ActionLink("Cadastrar animal", "Create", "Create", new { @class = "btn btn-primary" }).IfClaimHelper("PermissoesCliente", "CI")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NomeAnimal)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Especie)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CorPelagem)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Porte)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NomeAnimal)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Especie)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CorPelagem)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Porte)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id = item.AnimalId }, new { @class = "btn btn-warning" }).IfClaimHelper("PermissoesCliente", "CE")
+            @Html.ActionLink("Excluir", "Delete", new { id = item.AnimalId }, new { @class = "btn btn-danger" }).IfClaimHelper("PermissoesCliente", "CX")
+            @Html.ActionLink("Detalhes", "Details", new { id = item.AnimalId }, new { @class = "btn btn-info" }).IfClaimHelper("PermissoesCliente", "CD")
+        </td>
+    </tr>
+    }
+
+</table>

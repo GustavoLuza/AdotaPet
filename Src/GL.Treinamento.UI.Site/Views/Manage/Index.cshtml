@@ -1,0 +1,27 @@
+﻿@model GL.Treinamento.UI.Site.Models.IndexViewModel
+@{
+    ViewBag.Title = "Gerenciamento da conta";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dd>
+
+            @if (Model.HasPassword)
+            {
+                @Html.ActionLink("Alterar sua senha de acesso", "ChangePassword", "", new { @class = "btn btn-warning" })
+                @Html.ActionLink("Painel Administrativo", "Create", "PainelAdministrativo", new { @class = "btn btn-danger" })
+
+            }
+            else
+            {
+                @Html.ActionLink("Criar", "SetPassword")
+            }
+
+        </dd>
+    </dl>
+</div>
