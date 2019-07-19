@@ -23,6 +23,7 @@ namespace GL.Treinamento.Infra.Data.Context
         public DbSet<Raca> Racas { get; set; }
         public DbSet<Animal> Animais { get; set; }
         public DbSet<Ong> Ongs { get; set; }
+        public DbSet<Mantimentos> Mantimentos { get; set; }
 
         //SOBREESCREVE A CRIAÇÃO DO BANCO
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -42,6 +43,7 @@ namespace GL.Treinamento.Infra.Data.Context
             modelBuilder.Configurations.Add(new RacaConfig());
             modelBuilder.Configurations.Add(new AnimalConfig());
             modelBuilder.Configurations.Add(new OngConfig());
+            modelBuilder.Configurations.Add(new MantimentoConfig());
             base.OnModelCreating(modelBuilder);
         }
 

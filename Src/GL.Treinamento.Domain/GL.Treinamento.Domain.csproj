@@ -52,6 +52,7 @@
     <Compile Include="Interfaces\Repository\IAspNetUsersRepository.cs" />
     <Compile Include="Interfaces\Repository\IClienteRepository.cs" />
     <Compile Include="Interfaces\Repository\IDoencaRepository.cs" />
+    <Compile Include="Interfaces\Repository\IMantimentoRepository.cs" />
     <Compile Include="Interfaces\Repository\IOngRepository.cs" />
     <Compile Include="Interfaces\Repository\IPainelAdministrativoRepository.cs" />
     <Compile Include="Interfaces\Repository\IRacaRepository.cs" />
@@ -60,6 +61,7 @@
     <Compile Include="Interfaces\Services\IAspNetUsersService.cs" />
     <Compile Include="Interfaces\Services\IClienteService.cs" />
     <Compile Include="Interfaces\Services\IDoencaService.cs" />
+    <Compile Include="Interfaces\Services\IMantimentoService.cs" />
     <Compile Include="Interfaces\Services\IOngService.cs" />
     <Compile Include="Interfaces\Services\IPainelAdministrativoService.cs" />
     <Compile Include="Interfaces\Services\IRacaService.cs" />
@@ -68,6 +70,7 @@
     <Compile Include="Services\AspNetUsersService.cs" />
     <Compile Include="Services\ClienteService.cs" />
     <Compile Include="Services\DoencaService.cs" />
+    <Compile Include="Services\MantimentoService.cs" />
     <Compile Include="Services\OngService.cs" />
     <Compile Include="Services\PainelAdministrativoService.cs" />
     <Compile Include="Services\RacaService.cs" />
@@ -101,6 +104,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Specifications\Animais\" />
+    <Folder Include="Specifications\Mantimentos\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

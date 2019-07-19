@@ -60,9 +60,11 @@
     <Compile Include="Interfaces\IAspNetUsersAppService.cs" />
     <Compile Include="Interfaces\IClienteAppService.cs" />
     <Compile Include="Interfaces\IDoencaAppService.cs" />
+    <Compile Include="Interfaces\IMantimentoAppService.cs" />
     <Compile Include="Interfaces\IOngAppService.cs" />
     <Compile Include="Interfaces\IPainelAdministrativoAppService.cs" />
     <Compile Include="Interfaces\IRacaAppService.cs" />
+    <Compile Include="MantimentoAppService.cs" />
     <Compile Include="OngAppService.cs" />
     <Compile Include="PainelAdministrativoAppService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -73,6 +75,7 @@
     <Compile Include="ViewModels\ClienteViewModel.cs" />
     <Compile Include="ViewModels\DoencaViewModel.cs" />
     <Compile Include="ViewModels\EnderecoViewModel.cs" />
+    <Compile Include="ViewModels\MantimentoViewModel.cs" />
     <Compile Include="ViewModels\OngEnderecoViewModel.cs" />
     <Compile Include="ViewModels\OngViewModel.cs" />
     <Compile Include="ViewModels\PainelAdministrativoViewModel.cs" />

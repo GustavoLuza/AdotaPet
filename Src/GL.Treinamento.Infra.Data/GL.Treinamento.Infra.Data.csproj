@@ -61,6 +61,7 @@
     <Compile Include="EntityConfig\ClienteConfig.cs" />
     <Compile Include="EntityConfig\DoencaConfig.cs" />
     <Compile Include="EntityConfig\EnderecoConfig.cs" />
+    <Compile Include="EntityConfig\MantimentoConfig.cs" />
     <Compile Include="EntityConfig\OngConfig.cs" />
     <Compile Include="EntityConfig\RacaConfig.cs" />
     <Compile Include="Migrations\Configuration.cs" />
@@ -69,6 +70,7 @@
     <Compile Include="Repository\AspNetUsersRepository.cs" />
     <Compile Include="Repository\ClienteRepository.cs" />
     <Compile Include="Repository\DoencaRepository.cs" />
+    <Compile Include="Repository\MantimentosRepository.cs" />
     <Compile Include="Repository\OngRepository.cs" />
     <Compile Include="Repository\PainelAdministrativoRepository.cs" />
     <Compile Include="Repository\RacaRepository.cs" />

@@ -27,6 +27,7 @@ namespace GL.Treinamento.Infra.CrossCutting.IOC
             container.Register<IRacaAppService, RacaAppService>(Lifestyle.Scoped);
             container.Register<IAnimalAppService, AnimalAppService>(Lifestyle.Scoped);
             container.Register<IOngAppService,OngAppService>(Lifestyle.Scoped);
+            //container.Register<IMantimentoAppService, mantimento>(Lifestyle.Scoped);
 
             //DOMINIO
             container.Register<IClienteService, ClienteService>(Lifestyle.Scoped);

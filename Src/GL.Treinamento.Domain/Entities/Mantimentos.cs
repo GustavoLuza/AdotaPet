@@ -20,6 +20,7 @@ namespace GL.Treinamento.Domain.Entities
         public Guid MantimentoId { get; set; }
         public Guid OngId { get; set; }
         public string Descricao { get; set; }
+        public int CodigoIdentificacao { get; set; }
         public DateTime DataValidade { get; set; }
         public DateTime DataCadastro { get; set; }
         public Enums.Mantimentos Item { get; set; }

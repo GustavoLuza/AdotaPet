@@ -25,6 +25,7 @@ namespace N.Treinamento.Application.AutoMapper
             CreateMap<OngViewModel, Ong>();
             CreateMap<OngEnderecoViewModel, Ong>();
             CreateMap<OngEnderecoViewModel, Endereco>();
+            CreateMap<MantimentoViewModel, Mantimentos>();
         }
     }
 }
