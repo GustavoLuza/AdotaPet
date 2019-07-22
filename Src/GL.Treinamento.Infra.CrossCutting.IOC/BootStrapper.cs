@@ -27,7 +27,8 @@ namespace GL.Treinamento.Infra.CrossCutting.IOC
             container.Register<IRacaAppService, RacaAppService>(Lifestyle.Scoped);
             container.Register<IAnimalAppService, AnimalAppService>(Lifestyle.Scoped);
             container.Register<IOngAppService,OngAppService>(Lifestyle.Scoped);
-            //container.Register<IMantimentoAppService, mantimento>(Lifestyle.Scoped);
+            container.Register<IMantimentoAppService, MantimentoAppService>(Lifestyle.Scoped);
+
 
             //DOMINIO
             container.Register<IClienteService, ClienteService>(Lifestyle.Scoped);
@@ -37,6 +38,7 @@ namespace GL.Treinamento.Infra.CrossCutting.IOC
             container.Register<IRacaService, RacaService>(Lifestyle.Scoped);
             container.Register<IAnimalService, AnimalService>(Lifestyle.Scoped);
             container.Register<IOngService, OngService>(Lifestyle.Scoped);
+            container.Register<IMantimentoService, MantimentoService>(Lifestyle.Scoped);
 
             //DADOS
             container.Register<IClienteRepository, ClienteRepository>(Lifestyle.Scoped);
@@ -46,6 +48,7 @@ namespace GL.Treinamento.Infra.CrossCutting.IOC
             container.Register<IRacaRepository, RacaRepository>(Lifestyle.Scoped);
             container.Register<IAnimalRepository, AnimalRepository>(Lifestyle.Scoped);
             container.Register<IOngRepository, OngRepository>(Lifestyle.Scoped);
+            container.Register<IMantimentoRepository, MantimentosRepository>(Lifestyle.Scoped);
             container.Register<IUnityOfWork, UnitOfWork>(Lifestyle.Scoped);
             container.Register<TreinamentoContext>(Lifestyle.Scoped);
         }

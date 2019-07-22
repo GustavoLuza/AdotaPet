@@ -59,7 +59,7 @@ namespace GL.Treinamento.Domain.Enum
             Outros = 3,
         }
 
-        public enum Mantimentos
+        public enum DescricaoMantimentos
         {
             [Display(Name = "Ração cão")]
             RacaoCao = 0,

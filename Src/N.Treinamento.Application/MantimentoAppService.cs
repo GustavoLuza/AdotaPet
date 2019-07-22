@@ -1,4 +1,6 @@
-﻿using GL.Treinamento.Domain.Interfaces.Services;
+﻿using AutoMapper;
+using GL.Treinamento.Domain.Entities;
+using GL.Treinamento.Domain.Interfaces.Services;
 using GL.Treinamento.Infra.Data.UnitOfWork;
 using N.Treinamento.Application.Interfaces;
 using N.Treinamento.Application.ViewModels;
@@ -21,32 +23,48 @@ namespace N.Treinamento.Application
 
         public MantimentoViewModel Adicionar(MantimentoViewModel mantimentoViewModel)
         {
-            throw new NotImplementedException();
+            var mantimento = Mapper.Map<Mantimentos>(mantimentoViewModel);
+
+            var mantimentoreturn = _mantimentoService.Adicionar(mantimento);
+
+            if(mantimentoreturn.ValidationResult.IsValid)
+            {
+                mantimento.Ativo = true;
+                Commit();
+            }
+
+            return Mapper.Map<MantimentoViewModel>(mantimentoreturn);
         }
 
         public MantimentoViewModel Atualizar(MantimentoViewModel mantimentoViewModel)
         {
-            throw new NotImplementedException();
+            var mantimento = Mapper.Map<Mantimentos>(mantimentoViewModel);
+            _mantimentoService.Atualizar(mantimento);
+            mantimento.Ativo = true;
+            Commit();
+            return mantimentoViewModel;
         }
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            _mantimentoService.Dispose();
+            GC.SuppressFinalize(this);
         }
 
         public MantimentoViewModel ObterPorId(Guid id)
         {
-            throw new NotImplementedException();
+            return Mapper.Map<MantimentoViewModel>(_mantimentoService.ObterPorId(id));
         }
 
         public IEnumerable<MantimentoViewModel> ObterTodos()
         {
-            throw new NotImplementedException();
+            return Mapper.Map<IEnumerable<MantimentoViewModel>>(_mantimentoService.ObterAtivos().ToList());
         }
 
         public void Remover(Guid id)
         {
-            throw new NotImplementedException();
+            _mantimentoService.Remover(id);
+            Commit();
         }
     }
 }

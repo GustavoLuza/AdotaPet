@@ -23,7 +23,7 @@ namespace GL.Treinamento.Domain.Entities
         public int CodigoIdentificacao { get; set; }
         public DateTime DataValidade { get; set; }
         public DateTime DataCadastro { get; set; }
-        public Enums.Mantimentos Item { get; set; }
+        public Enums.DescricaoMantimentos Item { get; set; }
         public Enums.Quantidade Quantidade { get; set; }
         public Enums.TipoMantimento Tipo { get; set; }
         public bool Ativo { get; set; }

@@ -11,3 +11,11 @@ C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.Domain\obj\Deb
 C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.Domain\obj\Debug\GL.Treinamento.Domain.pdb
 C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.Domain\bin\Debug\DomainValidation.dll
 C:\Users\gluza\Desktop\Treinamento\Treinamento\Src\GL.Treinamento.Domain\obj\Debug\GL.Treinamento.Domain.csproj.CopyComplete
+C:\Users\gluza\source\repos\AdotaPet\Src\GL.Treinamento.Domain\bin\Debug\GL.Treinamento.Domain.dll
+C:\Users\gluza\source\repos\AdotaPet\Src\GL.Treinamento.Domain\bin\Debug\GL.Treinamento.Domain.pdb
+C:\Users\gluza\source\repos\AdotaPet\Src\GL.Treinamento.Domain\bin\Debug\DomainValidation.dll
+C:\Users\gluza\source\repos\AdotaPet\Src\GL.Treinamento.Domain\obj\Debug\GL.Treinamento.Domain.csprojAssemblyReference.cache
+C:\Users\gluza\source\repos\AdotaPet\Src\GL.Treinamento.Domain\obj\Debug\GL.Treinamento.Domain.csproj.CoreCompileInputs.cache
+C:\Users\gluza\source\repos\AdotaPet\Src\GL.Treinamento.Domain\obj\Debug\GL.Treinamento.Domain.csproj.CopyComplete
+C:\Users\gluza\source\repos\AdotaPet\Src\GL.Treinamento.Domain\obj\Debug\GL.Treinamento.Domain.dll
+C:\Users\gluza\source\repos\AdotaPet\Src\GL.Treinamento.Domain\obj\Debug\GL.Treinamento.Domain.pdb

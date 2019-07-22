@@ -39,7 +39,7 @@ namespace N.Treinamento.Application.ViewModels
         public DateTime DataCadastro { get; set; }
 
         [Required(ErrorMessage = "Selecione se o item")]
-        public Enums.Mantimentos Item { get; set; }
+        public Enums.DescricaoMantimentos Item { get; set; }
 
         [Required(ErrorMessage = "Selecione a quantidade")]
         public Enums.Quantidade Quantidade { get; set; }
