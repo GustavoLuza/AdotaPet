@@ -29,7 +29,5 @@ namespace GL.Treinamento.UI.Site.Models
         {
             return new ApplicationDbContext();
         }
-
-        public System.Data.Entity.DbSet<N.Treinamento.Application.ViewModels.MantimentoViewModel> MantimentoViewModels { get; set; }
     }
 }
