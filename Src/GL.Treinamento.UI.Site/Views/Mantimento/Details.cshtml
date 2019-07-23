@@ -1,66 +1,56 @@
 ﻿@model N.Treinamento.Application.ViewModels.MantimentoViewModel
 
 @{
-    Layout = null;
+    ViewBag.Title = "Detalhes da doação recebida";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Details</title>
-</head>
-<body>
-    <div>
-        <h4>MantimentoViewModel</h4>
-        <hr />
-        <dl class="dl-horizontal">
-            <dt>
-                @Html.DisplayNameFor(model => model.Descricao)
-            </dt>
+<h2>Detalhes da doação recebida</h2>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
     
-            <dd>
-                @Html.DisplayFor(model => model.Descricao)
-            </dd>
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
     
-            <dt>
-                @Html.DisplayNameFor(model => model.DataValidade)
-            </dt>
+        <dt>
+            @Html.DisplayNameFor(model => model.DataValidade)
+        </dt>
     
-            <dd>
-                @Html.DisplayFor(model => model.DataValidade)
-            </dd>
+        <dd>
+            @Html.DisplayFor(model => model.DataValidade)
+        </dd>
     
-            <dt>
-                @Html.DisplayNameFor(model => model.Item)
-            </dt>
+        <dt>
+            @Html.DisplayNameFor(model => model.Item)
+        </dt>
     
-            <dd>
-                @Html.DisplayFor(model => model.Item)
-            </dd>
+        <dd>
+            @Html.DisplayFor(model => model.Item)
+        </dd>
     
-            <dt>
-                @Html.DisplayNameFor(model => model.Quantidade)
-            </dt>
+        <dt>
+            @Html.DisplayNameFor(model => model.Quantidade)
+        </dt>
     
-            <dd>
-                @Html.DisplayFor(model => model.Quantidade)
-            </dd>
+        <dd>
+            @Html.DisplayFor(model => model.Quantidade)
+        </dd>
     
-            <dt>
-                @Html.DisplayNameFor(model => model.Tipo)
-            </dt>
+        <dt>
+            @Html.DisplayNameFor(model => model.Tipo)
+        </dt>
     
-            <dd>
-                @Html.DisplayFor(model => model.Tipo)
-            </dd>
+        <dd>
+            @Html.DisplayFor(model => model.Tipo)
+        </dd>
     
-        </dl>
-    </div>
-    <p>
-        @Html.ActionLink("Edit", "Edit", new { id = Model.MantimentoId }) |
-        @Html.ActionLink("Back to List", "Index")
-    </p>
-</body>
-</html>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.AnimalId }, new { @class = "btn btn-warning" })
+    @Html.ActionLink("Listagem", "Index", "Index", new { @class = "btn btn-primary" })
+</p>

@@ -49,9 +49,9 @@
             @Html.DisplayFor(modelItem => item.Descricao)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id = item.MantimentoId }) |
-            @Html.ActionLink("Details", "Details", new { id = item.MantimentoId }) |
-            @Html.ActionLink("Delete", "Delete", new { id = item.MantimentoId })
+            @Html.ActionLink("Editar", "Edit", new { id = item.MantimentoId }, new { @class = "btn btn-warning" }).IfClaimHelper("PermissoesCliente", "CE")
+            @Html.ActionLink("Excluir", "Delete", new { id = item.MantimentoId }, new { @class = "btn btn-danger" }).IfClaimHelper("PermissoesCliente", "CX")
+            @Html.ActionLink("Detalhes", "Details", new { id = item.MantimentoId }, new { @class = "btn btn-info" }).IfClaimHelper("PermissoesCliente", "CD")
         </td>
     </tr>
     }
