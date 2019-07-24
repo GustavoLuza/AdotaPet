@@ -20,6 +20,7 @@ namespace N.Treinamento.Application.ViewModels
         public Guid MantimentoId { get; set; }
 
         [ScaffoldColumn(false)]
+        [DisplayName("ONG")]
         public Guid OngId { get; set; }
 
         [MaxLength(100, ErrorMessage = "Máximo {0} caracteres")]
