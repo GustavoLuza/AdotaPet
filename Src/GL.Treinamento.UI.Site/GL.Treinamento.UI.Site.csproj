@@ -189,7 +189,6 @@
     <Compile Include="Controllers\DoencasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
-    <Compile Include="Controllers\MantimentoController.cs" />
     <Compile Include="Controllers\OngsController.cs" />
     <Compile Include="Controllers\PainelAdministrativoController.cs" />
     <Compile Include="Controllers\RacasController.cs" />
@@ -294,11 +293,6 @@
     <Content Include="Views\Ongs\Details.cshtml" />
     <Content Include="Views\Ongs\Edit.cshtml" />
     <Content Include="Views\Ongs\Index.cshtml" />
-    <Content Include="Views\Mantimento\Create.cshtml" />
-    <Content Include="Views\Mantimento\Delete.cshtml" />
-    <Content Include="Views\Mantimento\Details.cshtml" />
-    <Content Include="Views\Mantimento\Edit.cshtml" />
-    <Content Include="Views\Mantimento\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
