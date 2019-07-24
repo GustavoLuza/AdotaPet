@@ -80,7 +80,6 @@
     <Compile Include="Specifications\Clientes\ClienteDeveTerCpfValidoSpecification.cs" />
     <Compile Include="Specifications\Clientes\ClienteDeveTerEmailValidoSpecification.cs" />
     <Compile Include="Specifications\Doencas\DoencaDeveSerUnicaSpecification.cs" />
-    <Compile Include="Specifications\Mantimento\MantimentoDeveEstarDentroDaValidadeSpecification.cs" />
     <Compile Include="Specifications\Ongs\OngDevePossuirCNPJUnicoSpecification.cs" />
     <Compile Include="Specifications\Ongs\OngDevePossuirEmaulUnicoSpecification.cs" />
     <Compile Include="Specifications\Ongs\OngDeveTerEmailValidoSpecification.cs" />
@@ -105,6 +104,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Specifications\Animais\" />
+    <Folder Include="Specifications\Mantimentos\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
