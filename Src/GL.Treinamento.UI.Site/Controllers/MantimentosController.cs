@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using GL.Treinamento.Infra.CrossCutting.MvcFilters;
 using GL.Treinamento.UI.Site.Models;
+using Microsoft.AspNet.Identity;
 using N.Treinamento.Application.Interfaces;
 using N.Treinamento.Application.ViewModels;
 
@@ -58,6 +59,7 @@ namespace GL.Treinamento.UI.Site.Controllers
         [Route("novo-mantimento")]
         public ActionResult Create()
         {
+            //User.Identity.GetUserId();
             ViewBag.VBOng = _ongAppService.ObterTodos();
             return View();
         }
@@ -95,8 +97,6 @@ namespace GL.Treinamento.UI.Site.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-
-            ViewBag.VBOng = _ongAppService.ObterTodos();
 
             var mantimentoViewModel = _mantimentoAppService.ObterPorId(id.Value);
 

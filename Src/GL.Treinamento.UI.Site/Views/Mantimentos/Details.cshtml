@@ -1,30 +1,14 @@
 ﻿@model N.Treinamento.Application.ViewModels.MantimentoViewModel
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "Detalhes da doação recebida";
 }
 
-<h2>Details</h2>
+<h2>Detalhes da doação recebida</h2>
 
 <div>
-    <h4>MantimentoViewModel</h4>
     <hr />
     <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Descricao)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Descricao)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.DataValidade)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.DataValidade)
-        </dd>
 
         <dt>
             @Html.DisplayNameFor(model => model.Item)
@@ -50,9 +34,25 @@
             @Html.DisplayFor(model => model.Tipo)
         </dd>
 
+        <dt>
+            @Html.DisplayNameFor(model => model.DataValidade)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataValidade)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.MantimentoId }) |
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Editar", "Edit", new { id = Model.MantimentoId }, new { @class = "btn btn-warning" })
+    @Html.ActionLink("Listagem", "Index", "Index", new { @class = "btn btn-primary" })
 </p>

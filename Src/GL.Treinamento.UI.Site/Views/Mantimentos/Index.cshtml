@@ -1,22 +1,17 @@
 ﻿@model IEnumerable<N.Treinamento.Application.ViewModels.MantimentoViewModel>
+@using GL.Treinamento.UI.Site.Helpers;
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Listagem de doações recebidas";
 }
 
-<h2>Index</h2>
+<h2>Listagem de doações recebidas</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Cadastrar nova doação", "Create", "Create", new { @class = "btn btn-primary" }).IfClaimHelper("PermissoesCliente", "CI")
 </p>
 <table class="table">
     <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Descricao)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.DataValidade)
-        </th>
         <th>
             @Html.DisplayNameFor(model => model.Item)
         </th>
@@ -26,17 +21,18 @@
         <th>
             @Html.DisplayNameFor(model => model.Tipo)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataValidade)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </th>
         <th></th>
     </tr>
 
 @foreach (var item in Model) {
     <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Descricao)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.DataValidade)
-        </td>
+
         <td>
             @Html.DisplayFor(modelItem => item.Item)
         </td>
@@ -47,9 +43,16 @@
             @Html.DisplayFor(modelItem => item.Tipo)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.MantimentoId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.MantimentoId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.MantimentoId })
+            @Html.DisplayFor(modelItem => item.DataValidade)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Descricao)
+        </td>
+
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id = item.MantimentoId }, new { @class = "btn btn-warning" }).IfClaimHelper("PermissoesCliente", "CE")
+            @Html.ActionLink("Excluir", "Delete", new { id = item.MantimentoId }, new { @class = "btn btn-danger" }).IfClaimHelper("PermissoesCliente", "CX")
+            @Html.ActionLink("Detalhes", "Details", new { id = item.MantimentoId }, new { @class = "btn btn-info" }).IfClaimHelper("PermissoesCliente", "CD")
         </td>
     </tr>
 }
